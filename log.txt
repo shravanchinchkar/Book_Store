@@ -1,0 +1,10 @@
+[Tue Aug 19 2025 15:53:20 GMT+0530 (India Standard Time)] request-method:GET request-path:/books
+[Tue Aug 19 2025 15:53:29 GMT+0530 (India Standard Time)] request-method:GET request-path:/books/2
+[Tue Aug 19 2025 15:53:41 GMT+0530 (India Standard Time)] request-method:POST request-path:/books/2
+[Tue Aug 19 2025 15:53:47 GMT+0530 (India Standard Time)] request-method:POST request-path:/books
+[Tue Aug 19 2025 15:53:54 GMT+0530 (India Standard Time)] request-method:POST request-path:/books
+[Tue Aug 19 2025 15:54:13 GMT+0530 (India Standard Time)] request-method:GET request-path:/books
+[Tue Aug 19 2025 15:55:07 GMT+0530 (India Standard Time)] request-method:DELETE request-path:/books/2
+[Tue Aug 19 2025 15:55:24 GMT+0530 (India Standard Time)] request-method:GET request-path:/books/1
+[Tue Aug 19 2025 15:55:28 GMT+0530 (India Standard Time)] request-method:GET request-path:/books/2
+[Tue Aug 19 2025 15:55:37 GMT+0530 (India Standard Time)] request-method:GET request-path:/books
