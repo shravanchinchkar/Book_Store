@@ -4,7 +4,7 @@
   "description": "---",
   "main": "index.js",
   "scripts": {
-    "start":"node --watch index.js"
+    "start": "node --watch index.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,10 @@
     "@types/node": "^24.3.0"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "dotenv": "^17.2.1",
+    "drizzle-kit": "^0.31.4",
+    "drizzle-orm": "^0.44.4",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
   }
 }

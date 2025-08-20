@@ -1,6 +1,11 @@
 # Book Store Project
 A project created for revising the backend concepts
 
+## Steps to execute the code
+- npm install
+- docker compose up -d
+- npm start
+
 ## Tech Stack 
 - JavaScript
 - Express.js

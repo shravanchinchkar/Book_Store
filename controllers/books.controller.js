@@ -1,4 +1,6 @@
-const { BOOKS } = require("../models/books");
+const booksTable = require("../models/book.model");
+const db=require("../db/index");
+
 
 exports.getAllBooks = (req, res) => {
   res.setHeader("x-shrav", "shravan chinchkar");
