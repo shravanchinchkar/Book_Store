@@ -26,15 +26,12 @@ exports.getAllAuthors = async (req, res) => {
 // get all the authors by ID
 exports.getAuthorById = async (req, res) => {
   const id = req.params.id;
-  console.log("author id is:", id);
   try {
     const [author] = await db
       .select()
       .from(authorsTable)
       .where(eq(authorsTable.id, id))
       .limit(1);
-    console.log("author by id:", author);
-
     if (!author) {
       return res.status(404).json({
         success: false,
@@ -63,7 +60,6 @@ exports.createAuthor = async (req, res) => {
 
     // if exists throw error
     if (isAuthorEmailExists) {
-      console.log("isAuthorEmailExists:", isAuthorEmailExists);
       return res.status(400).json({
         success: false,
         error: "Email already in use!",
