@@ -1,6 +1,7 @@
 require("dotenv/config"); //loads all the .env variables
 const express = require("express");
 const bookRouter = require("./routes/book.routes");
+const authorRouter=require("./routes/author.routes")
 const { loggerMiddleware } = require("./middlewares/logger");
 
 const app = express();
@@ -15,5 +16,6 @@ app.use(loggerMiddleware);
 
 // If any request comes to /books then go to the bookRouter👇
 app.use("/books", bookRouter);
+app.use("/authors",authorRouter)
 
 app.listen(PORT, () => console.log(`Server is running on PORT:${PORT}`));
